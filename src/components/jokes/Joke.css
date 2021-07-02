@@ -1,0 +1,24 @@
+.customList ul {
+    margin: 0px;
+}
+
+.customList ul li {
+    list-style: disc;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 22px;
+}
+.App {
+     width: 600px;
+    margin: 0 auto;
+  }
+  .App h1 {
+      font-size: 35px;
+  }
+  @media only screen and (max-width: 576px){
+    .App {
+        width: 90%;
+      }
+  }
